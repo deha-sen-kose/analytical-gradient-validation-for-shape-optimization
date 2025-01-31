@@ -1,11 +1,12 @@
-# gradient-validation-msc-thesis-optimization
-This repository contains MATLAB code for the validation of gradients for shape optimization problems using MATLAB API "checkGradients." 
+# analytical-gradient-validation-for-shape-optimization
 
-Author: Deha Şen Köse, deha.koese@tum.de
+This repository showcases how to use MATLAB's API `checkGradients` to validate analytically derived expressions of gradients with application to sensitivity analysis for shape optimization problems in structural mechanics. 
+
+Author: Deha Şen Köse, dehasenkose@gmail.com
 
 ## Prerequisites
-The coding language used is MATLAB, and MATLAB2024a release is used throughout the development. Thus, it is hereby advised that either MATLAB2024a or a newer version should be used.
-The following MATLAB toolboxes or newer releases are required to run the available codes.
+The coding language used is MATLAB, and MATLAB2024a release is used throughout the development. Thus, it is advised that either MATLAB2024a or a newer version should be used.
+The following MATLAB toolboxes or newer releases are required to run the available code.
 ```
 Global Optimization Toolbox                           Version 24.1        (R2024a)
 Optimization Toolbox                                  Version 24.1        (R2024a)
