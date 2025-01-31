@@ -4,7 +4,7 @@ function [designVarNum, desingVariablesFlat] = findDesignVar...
 %   This function finds and returns the design variables' numerical values 
 %   from the control point coordinates. 
 %
-%   Author(s): Deha Şen Köse, deha.koese@tum.de
+%   Author(s): Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

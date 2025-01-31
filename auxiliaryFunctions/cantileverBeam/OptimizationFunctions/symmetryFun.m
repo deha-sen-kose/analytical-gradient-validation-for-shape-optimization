@@ -6,7 +6,7 @@ function cpmtxnew = symmetryFun(cpmtx, cpmtxk, numCPy, symtrynum)
 %   Done for regularizing the shape and obtaining symmetrical shapes after
 %   optimization.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %%  Input(s):
 %

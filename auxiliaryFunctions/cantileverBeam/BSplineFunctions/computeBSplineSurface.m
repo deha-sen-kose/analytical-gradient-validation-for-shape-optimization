@@ -6,7 +6,7 @@ function surface = computeBSplineSurface(knotVectorXi, polOrderXi,...
 %   Computes B-Spline surface by the tensor product of two 2D curves. Can
 %   also be used to plot the computed 2D surface.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Reference(s):
 %
@@ -50,7 +50,7 @@ function surface = computeBSplineSurface(knotVectorXi, polOrderXi,...
 %                             a vector. This way the design variable
 %                             control points are plotted in green and the
 %                             ones that are not desing variables are
-%                             plotted red as also shown in the thesis. If
+%                             plotted red. If
 %                             there is no design variable, this can be
 %                             given as NaN value, so that all of the
 %                             control points are drawn in red.

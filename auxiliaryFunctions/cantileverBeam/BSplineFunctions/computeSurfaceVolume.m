@@ -4,7 +4,7 @@ function surfaceVolume = computeSurfaceVolume(knotVectorXi, knotVectorEta,...
 %
 %   This function computes the surface volume of the plate.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

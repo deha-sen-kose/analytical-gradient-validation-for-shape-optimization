@@ -5,7 +5,7 @@ function knotSpan = findKnotSpan(knotVector, curveParameter)
 %   given knot vector. The indexing starts from 1 in MATLAB. Thus all the
 %   indexing in this framework also start from 1.
 %
-%   Author(s)       :  Deha Şen Köse, deha.koese@tum.de
+%   Author(s)       :  Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

@@ -4,7 +4,7 @@ function controlPointsSurface = generateSurfaceCPs(controlPointsX, ...
 %   Generates symmetrical surface control points from control points of
 %   given curves.
 %   
-%   Author(s)       : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)       : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

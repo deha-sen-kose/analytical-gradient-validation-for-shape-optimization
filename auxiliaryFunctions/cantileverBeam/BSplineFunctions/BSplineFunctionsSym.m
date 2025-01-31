@@ -1,10 +1,9 @@
 function symBSplineBasisFunc = BSplineFunctionsSym(i, p, knotVector, direction)
 %% FUNCTION BSplineFunctionsSym
 %   This function computes the B-Spline basis functions. All values are 
-%   symbolically computed. This piece of code is not used in generation of
-%   the results in the thesis due to efficiency reasons.
+%   symbolically computed.
 %
-%   Author(s): Deha Şen Köse, deha.koese@tum.de
+%   Author(s): Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Reference(s):
 %

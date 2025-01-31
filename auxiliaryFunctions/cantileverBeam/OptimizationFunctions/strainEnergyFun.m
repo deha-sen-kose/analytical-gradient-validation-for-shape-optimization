@@ -10,7 +10,14 @@ function [strainEnergy, gradient, hessian, A] = strainEnergyFun(...
 %   together with the gradient of the strain energy since it is easier to
 %   to use optimizers in Matlab.
 %
-%   Author(s)           : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)           : Deha Şen Köse, dehasenkose@gmail.com
+%
+%% Reference(s):
+%
+%   Kiendl, J., Schmidt, R., Wuchner, R., & Bletzinger, K.-U. (2014). Isogeometric shape
+%	optimization of shells using semi-analytical sensitivity analysis and sensitivity
+%	weighting. Computer Methods in Applied Mechanics and Engineering, 274, 148–
+%	167. https://doi.org/https://doi.org/10.1016/j.cma.2014.02.001
 %
 %% Input(s):
 %
@@ -113,13 +120,11 @@ function [strainEnergy, gradient, hessian, A] = strainEnergyFun(...
 %   hessian                 : Hessian of the strain energy function w.r.t.
 %                             the design variable coordinates. Is in the
 %                             same order with the given designVariablesDOFs
-%                             which should be ascending. This is not used
-%                             in the thesis as they are not validated. BFGS
-%                             approximation is used in optimization.
+%                             which should be ascending. They are not 
+%                             validated. BFGS approximation is used in 
+%                             optimization.
 %
-%   A                       : The diagonal filtering matrix. For details,
-%                             please see the thesis or references in 
-%                             assembleMasterSystemAndSensitivitiesNum.m
+%   A                       : The diagonal filtering matrix.
 %
 %% End of function definition - Code
 

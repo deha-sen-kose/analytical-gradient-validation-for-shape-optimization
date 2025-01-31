@@ -5,7 +5,7 @@ function [xiActive,etaActive] = findActiveCPs(knotVectorXi, knotVectorEta,...
 %   Function that finds the active basis functions (control points)
 %   in both xi- and eta-directions, for a given configuration of a surface.
 %
-%   Author(s): Deha Şen Köse, deha.koese@tum.de
+%   Author(s): Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

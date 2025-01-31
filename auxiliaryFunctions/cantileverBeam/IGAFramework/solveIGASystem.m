@@ -4,7 +4,7 @@ function [displacementField] = solveIGASystem(masterStiffnessMtx, forceVector)
 %   This function solves the Ku=F FEA equation and returns the displacement
 %   field.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %%  Input(s):
 %

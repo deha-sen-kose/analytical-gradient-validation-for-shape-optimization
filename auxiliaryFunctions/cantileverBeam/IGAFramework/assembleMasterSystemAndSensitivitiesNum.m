@@ -11,7 +11,7 @@ function [masterStiffnessMtx, forceVector, stiffnessSensitivities,...
 %   noted that the returned master stiffness matrix is the general 
 %   stiffness matrix and it is not reduced.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %%  Reference(s):
 %
@@ -60,7 +60,7 @@ function [masterStiffnessMtx, forceVector, stiffnessSensitivities,...
 %   quadraticProgramming    : A boolean for calculation of the hessian. If
 %                             true, the Hessian of the stiffness matrix is
 %                             computed. It must be noted that these
-%                             matrices are not used in the thesis. BFGS
+%                             matrices are not used. BFGS
 %                             approximation is used in the optimization. In
 %                             addition, these hessians are not validated,
 %                             so please use cautiously. 
@@ -85,8 +85,7 @@ function [masterStiffnessMtx, forceVector, stiffnessSensitivities,...
 %   stiffnessHessian        : Hessian of the master stiffness matrix. It is
 %                             a cell matrix where each cell contains a
 %                             double derivative of the master stiffness
-%                             matrix. In the thesis these values are not
-%                             used. BFGS approximation of the hessians are
+%                             matrix. BFGS approximation of the hessians are
 %                             used for the SQP algorithm. Thus exists the
 %                             quadraticProgramming boolean as an input to
 %                             control these computations.

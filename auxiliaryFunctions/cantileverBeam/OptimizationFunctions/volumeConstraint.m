@@ -18,7 +18,7 @@ function [conIneqValue, conEqValue, conIneqGrad, conEqGrad] = ...
 %   current volume  <= initial volume * p1, where p1 > 1 and
 %   current volume  >= initial volume * p2, where p2 < 1.
 %
-%   Author(s)       : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)       : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %

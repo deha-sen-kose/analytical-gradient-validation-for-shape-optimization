@@ -3,7 +3,7 @@ function [weights, quadraturePoints] = gaussWeightsandPoints(integrandOrder)
 %   This function returns the Gauss quadrature points in 1D and their 
 %   respective weights for a given integrand polynomial order.
 %
-%   Author(s): Deha Şen Köse, deha.koese@tum.de
+%   Author(s): Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Reference(s):
 %

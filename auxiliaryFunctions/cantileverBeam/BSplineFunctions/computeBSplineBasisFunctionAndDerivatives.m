@@ -4,7 +4,7 @@ function [BSplineBasisFunctionEvaluation, BSplineDerivativeEvaluation] = ...
 %   This function computes the B-Spline basis functions and their first 
 %   derivatives. All values are numerically computed.      
 %
-%   Author(s)       : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)       : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Reference(s):
 %

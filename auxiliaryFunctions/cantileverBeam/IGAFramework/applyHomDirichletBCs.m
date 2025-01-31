@@ -5,7 +5,7 @@ function [reducedStiffnessMtx, reducedForceVector] = applyHomDirichletBCs...
 %   This function reduces the finite element system using the homogeneous
 %   dirichlet boundary conditions.
 %
-%   Author(s)       : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)       : Deha Şen Köse, dehasenkose@gmail.com
 %   
 %% Input(s):
 %

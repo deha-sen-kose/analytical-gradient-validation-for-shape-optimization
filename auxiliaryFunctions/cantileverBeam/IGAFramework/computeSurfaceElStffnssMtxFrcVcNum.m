@@ -15,7 +15,7 @@ function [elStiffnessMtx, elStiffnessSensitivity, ...
 %   plane-stress problem (a parallel force in either or both two dimensions 
 %   are considered).
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 % 
 %% Reference(s): 
 %                 ISOGEOMETRIC STRUCTURAL ANALYSIS AND DESIGN, 
@@ -82,9 +82,8 @@ function [elStiffnessMtx, elStiffnessSensitivity, ...
 %                             to be of size (1,2).
 %
 %     quadraticProgramming  : A boolean for calculation of the hessian. If
-%                             true the hessian will be computed. These
-%                             hessians are not used in the thesis and are
-%                             not validated!
+%                             true the hessian will be computed. Not
+%                             validated!
 %
 %% Output(s):
 %

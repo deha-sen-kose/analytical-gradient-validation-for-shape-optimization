@@ -7,7 +7,7 @@ function [desingVariableSensitivities, designHessian] = ...
 %   Computes ovearall sensitivities of the strain energy function using the
 %   derivatives of the stiffness matrix and force vector.
 %
-%   Author(s)               : Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               : Deha Şen Köse, dehasenkose@gmail.com
 %
 %% Input(s):
 %
@@ -42,8 +42,7 @@ function [desingVariableSensitivities, designHessian] = ...
 %
 %
 %   designHessian           : Hessian of the objective function with
-%                             respect to the design variables. In this 
-%                             thesis it is not validated and used.
+%                             respect to the design variables.
 %
 %% End of function definition - Code
 

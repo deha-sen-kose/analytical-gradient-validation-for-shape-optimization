@@ -4,10 +4,10 @@ function [masterStiffnessMtx, sensitivities] = assembleMasterStiffMtxandSensitiv
 %%  Function assembleMasterStiffMtxandSensitivities
 %
 %   This function assebles the SYMBOLIC master FEM equations and
-%   sensitivities. This is NOT used in the thesis because of efficiency
+%   sensitivities. This is NOT used because of efficiency
 %   reasons.
 %
-%   Author(s)               :  Deha Şen Köse, deha.koese@tum.de
+%   Author(s)               :  Deha Şen Köse, dehasenkose@gmail.com
 %
 %%  Input(s):
 %
