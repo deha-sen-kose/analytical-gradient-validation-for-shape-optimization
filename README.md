@@ -8,9 +8,7 @@ Author: Deha Şen Köse, dehasenkose@gmail.com
 The coding language used is MATLAB, and MATLAB2024a release is used throughout the development. Thus, it is advised that either MATLAB2024a or a newer version should be used.
 The following MATLAB toolboxes or newer releases are required to run the available code.
 ```
-Global Optimization Toolbox                           Version 24.1        (R2024a)
 Optimization Toolbox                                  Version 24.1        (R2024a)
-Symbolic Math Toolbox                                 Version 24.1        (R2024a)
 ```
 ## How to run?
 1. First, please extract the repository from the zipped folder. Then open Matlab and navigate to the same folder using the directory tab that lies from left to right, close to the top of the page.
